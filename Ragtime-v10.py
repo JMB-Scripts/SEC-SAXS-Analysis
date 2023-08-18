@@ -199,7 +199,7 @@ fig, ax1 = plt.subplots()
 
 # Plot I(0) on the Y right axis
 color = 'tab:red'
-ax1.set_xlabel('Numéro du fichier')
+ax1.set_xlabel('Frame Index')
 ax1.set_ylabel('I(0)', color=color)
 ax1.plot(index, I0, color=color)
 ax1.tick_params(axis='y', labelcolor=color)
@@ -236,7 +236,7 @@ fig, ax1 = plt.subplots()
 
 # Plot I(0) on the Y right axis
 color = 'tab:red'
-ax1.set_xlabel('Numéro du fichier')
+ax1.set_xlabel('Frame Index')
 ax1.set_ylabel('I(0)', color=color)
 ax1.plot(index, I0, color=color)
 ax1.tick_params(axis='y', labelcolor=color)
