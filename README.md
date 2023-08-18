@@ -1,10 +1,11 @@
 This script allows you to analyze and plot the elution profile of your SEC-SAXS experiment using data from Subtracted .dat files in the  folder FOLDER/.
 It creates two text files:
-
 1- Ragtime_01.txt containing Index of the frame, I(0) and Rg values,
+
 2- MW_02.txt containing Index of the frame, I(0) and MW1 values.
 
-Then you can use software like Excel, Prism, SigmaPlot, etc., to plot the data as you want. You can also keep the graphs displayed by the script as a picture.
+Then you can use software like Excel, Prism, SigmaPlot, etc., to plot the data as you want. 
+You can also keep the graphs displayed by the script as a picture (see Output).
 
 ## User manual
 # Prerequisites
@@ -40,10 +41,11 @@ Then you can use software like Excel, Prism, SigmaPlot, etc., to plot the data a
 (but should work on different beamlines)
 Jean-Marie Bourhis and Chat-GPT via mac-gpt (because I'm a "tanche" in python programming)
 
-## Output for I(0) and Rg vs Frames 
+## Outputs 
+1- I(0) and Rg vs Frames 
 ![Figure_1b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/e59dee29-2056-4c30-874b-53c71f543d4e)
 
-## Output for I(0) and MW vs Frames
+2- I(0) and MW vs Frames
 ![Figure_2b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/a600f1aa-7606-473a-ab62-8f42a1238dc0)
 
 
