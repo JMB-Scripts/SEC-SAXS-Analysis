@@ -17,14 +17,14 @@ You can also keep the graphs displayed by the script as a picture (see Output).
 
  python Ragtime-vXX.py Folder qmin_offset qmax_offset
 
-   - Folder/ : the name of the folder containing ONLY the Substrated files form SEC-SAXS.
-   - `qmin_offset` : the offset (in number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS or RAW.
-   - `qmax_offset`: the offset (in number of lines) to be added to the first usable line to determine qmax use the value from PRIMUS or RAW.
+   - Folder/ : the name of the folder containing ONLY the Substracted files from SEC-SAXS.
+   - `qmin_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS or RAW (in the range box).
+   - `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax, use the value from PRIMUS or RAW (in the range box).
 
 ## Features
  1. Guinier approximation :
- - Read each .dat files and determine first usable line base on the provided qmin_offset qmax_offset.
- - Extraction of data for q and I(q) in the selected range.
+ - Read each .dat files and determine the first usable line based on the provided qmin_offset qmax_offset.
+ - Data extraction for q and I(q) in the selected range.
  - Perform a linear regression to calculate Rg (radius of gyration) and I0 (intensity at q=0).
  - Write data to text file.
  - Display graph with I(0) and Rg vs Frame index
@@ -33,7 +33,7 @@ You can also keep the graphs displayed by the script as a picture (see Output).
  - Extract data up to q=0.3.
  - Calculate the integral of the product I(q)*q.
  - Calculation of VC, QR (quality factor) and MW (molecular weight).
- - Write data to text file.
+ - Write data to a text file.
  - Display graph with I(0) and MW vs Frame index
  
 ## Tests
@@ -43,9 +43,11 @@ Jean-Marie Bourhis and Chat-GPT via mac-gpt (because I'm a "tanche" in python pr
 
 ## Outputs 
 1- I(0) and Rg vs Frames 
+
 ![Figure_1b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/e59dee29-2056-4c30-874b-53c71f543d4e)
 
 2- I(0) and MW vs Frames
+
 ![Figure_2b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/a600f1aa-7606-473a-ab62-8f42a1238dc0)
 
 
