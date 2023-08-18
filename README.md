@@ -39,4 +39,8 @@ Then you can use software like Excel, Prism, SigmaPlot, etc., to plot the data a
  Works on mac M1 and Linux. It has been tested only on SEC-SAXS data from SWING beamline at Soleil-synchrotron France.
 (but should work on different beamlines)
 Jean-Marie Bourhis and Chat-GPT via mac-gpt (because I'm a "tanche" in python programming)
+## Output for I(0) and Rg vs Frames 
+![Figure_1](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/45442cac-ea47-4cc6-9735-c05df18faed6)
+## Output for I(0) and MW vs Frames
+![Figure_2](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/4d49789b-a3df-4756-9646-abe1e48a6ff6)
 
