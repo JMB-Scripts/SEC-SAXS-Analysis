@@ -219,6 +219,7 @@ ax2.legend(['Rg'], loc='upper right')
 
 # display graph 
 plt.title('SEC-SAXS, I(0) and Rg vs Frames')
+plt.savefig('SEC-SAXS, I(0) and Rg vs Frames.png')  # Save the graph as a PNG image
 plt.show()
 
 ## I(o), MW vs Frames
@@ -256,4 +257,5 @@ ax2.legend(['MW'], loc='upper right')
 
 # Display the plot 
 plt.title('SEC-SAXS I(0) and MW vs Frames')
+plt.savefig('SEC-SAXS I(0) and MW vs Frames.png')  # Save the graph as a PNG image
 plt.show()
