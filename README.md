@@ -15,14 +15,17 @@ If you want you can also keep the graphs displayed by the script as a picture (s
 # Prerequisites
    - Python 3.x
    - Necessary packages: numpy, matplotlib, scipy
-        conda install numpy matplotlib scipy 
+     
+If needed just type in your terminal :
+conda install numpy matplotlib scipy 
         
    - SAXS data need to be in Å-1.
    - All substracted files need to be in the same folder. 
 
 ## Command syntax
+To launch the script in your terminal type:
 
- python Ragtime-vXX.py Folder qmin_offset qmax_offset
+ python Ragtime-v10.py Folder qmin_offset qmax_offset
 
    - Folder/ : the location of the folder containing ONLY the Substracted files from SEC-SAXS.
    - `qmin_offset`: the offset (in a number of lines) to determine qmin, use the value from PRIMUS (in the range box) or RAW (nmin) .
