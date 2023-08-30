@@ -15,6 +15,8 @@ If you want you can also keep the graphs displayed by the script as a picture (s
 # Prerequisites
    - Python 3.x
    - Necessary packages: numpy, matplotlib, scipy
+        conda install numpy matplotlib scipy 
+        
    - SAXS Data need to be in Å-1 all sub file in one folder 
 
 ## Command syntax
