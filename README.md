@@ -17,15 +17,16 @@ If you want you can also keep the graphs displayed by the script as a picture (s
    - Necessary packages: numpy, matplotlib, scipy
         conda install numpy matplotlib scipy 
         
-   - SAXS Data need to be in Å-1 all sub file in one folder 
+   - SAXS data need to be in Å-1.
+   - All substracted files need to be in the same folder. 
 
 ## Command syntax
 
  python Ragtime-vXX.py Folder qmin_offset qmax_offset
 
    - Folder/ : the location of the folder containing ONLY the Substracted files from SEC-SAXS.
-   - `qmin_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS or RAW (in the range box).
-   - `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax, use the value from PRIMUS or RAW (in the range box).
+   - `qmin_offset`: the offset (in a number of lines) to determine qmin, use the value from PRIMUS (in the range box) or RAW (nmin) .
+   - `qmax_offset`: the offset (in a number of lines) to determine qmax, use the value from PRIMUS (in the range box) or RAW (nmax).
 
 ## Features
  1. Guinier approximation :
