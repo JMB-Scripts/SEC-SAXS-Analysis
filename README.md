@@ -60,5 +60,4 @@ To launch the script in your terminal type:
 ![Figure_2b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/a600f1aa-7606-473a-ab62-8f42a1238dc0)
 
 
-Jean-Marie Bourhis and Chat-GPT via mac-gpt (because I'm a "tanche" in Python programming, but I'm hanging)
-
+JMB
