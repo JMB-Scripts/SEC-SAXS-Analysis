@@ -1,14 +1,15 @@
 ### SEC-SAXS-Analysis
 
-This script allows you to analyze and plot the elution profile of your SEC-SAXS experiment using data from Subtracted .dat files.
+This script allows you to analyze and plot the elution profile of your SEC-SAXS experiment using already subtracted (.dat) files.
 It creates two text files:
 
 1- Ragtime_01.txt containing three columns: Index of the frame, I(0) and Rg values,
 
 2- MW_02.txt containing three columns: Index of the frame, I(0) and MW values.
 
-Then you can easily retrieve your region under your peak of interest and use your software like Excel, Prism, SigmaPlot, etc., to plot the data as you want. 
-You can also keep the graphs displayed by the script as a picture (see Output).
+Then you can easily retrieve your region under your peak of interest.
+You can use YOUR preferred software like Excel, Prism, SigmaPlot, etc., to plot the data as YOU want. 
+If you want you can also keep the graphs displayed by the script as a picture (see Output).
 
 ### User manual
 # Prerequisites
