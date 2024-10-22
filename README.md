@@ -51,13 +51,9 @@ To launch the script in your terminal type:
 (but should work with files from other SEC-SAXS beamlines)
 
 ## Graphical outputs 
-1- I(0) and Rg vs Frames 
+1- Top:I(0) and Rg vs Frames Bottom: I(0) and MW vs Frames
 
-![Figure_1b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/e59dee29-2056-4c30-874b-53c71f543d4e)
-
-2- I(0) and MW vs Frames
-
-![Figure_2b](https://github.com/JMB-Scripts/SEC-SAXS-Analysis/assets/20182399/a600f1aa-7606-473a-ab62-8f42a1238dc0)
+![image](https://github.com/user-attachments/assets/91f4487c-3d5a-4112-a5e9-fb6b504de628)
 
 
 JMB
